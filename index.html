@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mert Sağlam — CV</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card {
+      text-align: center;
+      padding: 48px 40px;
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      max-width: 420px;
+      width: 90%;
+    }
+
+    .avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #21262d;
+      border: 2px solid #30363d;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+    }
+
+    h1 {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #8b949e;
+      line-height: 1.6;
+      margin-bottom: 32px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      text-decoration: none;
+      transition: opacity 0.15s;
+    }
+
+    a:hover { opacity: 0.8; }
+
+    .btn-primary {
+      background: #238636;
+      color: #fff;
+      border: 1px solid #2ea043;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: #e6edf3;
+      border: 1px solid #30363d;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="avatar">MS</div>
+    <h1>Mert Sağlam</h1>
+    <p>Güncel CV'me aşağıdaki butondan ulaşabilirsiniz.</p>
+    <div class="buttons">
+      <a class="btn-primary" href="cv.pdf" target="_blank">CV'yi Görüntüle</a>
+      <a class="btn-secondary" href="cv.pdf" download>İndir</a>
+    </div>
+  </div>
+</body>
+</html>
